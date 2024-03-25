@@ -1,0 +1,6 @@
+databaseChangeLog:
+# Migrate database
+- include:
+    file: db/changelog/initial/2024-01-01--0001-create_users.sql
+- include:
+    file: db/changelog/initial/2024-01-01--0002-create_goods.sql
